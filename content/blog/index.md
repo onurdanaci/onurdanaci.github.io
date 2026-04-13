@@ -1,3 +1,3 @@
-# Index
+# Blog
 
 ```{tableofcontents}
