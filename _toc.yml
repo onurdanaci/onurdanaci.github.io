@@ -10,6 +10,7 @@ parts:
       - file: content/cv
       - file: content/publications
       - file: content/blog/index
+      - file: content/highlights  
 
   - caption: "🧠 Commentaries on Patents"
     chapters:
