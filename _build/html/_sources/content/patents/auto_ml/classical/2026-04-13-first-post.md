@@ -1,5 +1,0 @@
-# First
-
-Coming soon.
-
-```{tableofcontents}

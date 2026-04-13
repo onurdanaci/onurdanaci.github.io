@@ -2,4 +2,3 @@
 
 Coming soon.
 
-```{tableofcontents}

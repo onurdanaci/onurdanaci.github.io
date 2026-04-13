@@ -12,7 +12,7 @@ parts:
       - file: content/blog/index
       - file: content/highlights  
 
-  - caption: "🧠 Commentaries on Patents"
+  - caption: "Analysis of Patents"
     chapters:
       - file: content/patents/index
         sections:
