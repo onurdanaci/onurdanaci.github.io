@@ -18,7 +18,7 @@ This site serves as my digital academic portfolio — including my full CV, publ
 - [✨ Highlights](content/highlights)
   <br>Key projects, recent talks, collaborations, and recognitions.
 
-- [📝 Blog](content/blog/index)
+- [📝 Blog](content/blog)
   <br>Personal essays and technical posts on quantum computing, machine learning, and more.
 
 ## 🧭 Navigation
