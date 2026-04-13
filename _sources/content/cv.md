@@ -108,3 +108,4 @@ Deep Learning Specialization
 - Computational Science MSc Curriculum: Scientific Computing I–III, Optimization, Bayesian ML, Large Scale
 Computation (CUDA, MPI, OpenMP), Linear Models, Data Analysis, C++
 
+```{tableofcontents}

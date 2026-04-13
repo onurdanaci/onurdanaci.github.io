@@ -82,3 +82,5 @@ models and imputation. In Frontiers in Optics, pages FTu8D–5. Optical Society 
 Onur Danaci. Multimode squeezed light and coupled squeezed vacuum (conference pre-
 sentation). In Optical, Opto-Atomic, and Entanglement-Enhanced Precision Metrology II,
 volume 11296, page 112962T. International Society for Optics and Photonics, 2020
+
+```{tableofcontents}

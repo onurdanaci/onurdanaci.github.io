@@ -1,3 +1,5 @@
-#Classical Auto-ML
+# Classical Auto-ML
 
 Coming soon.
+
+```{tableofcontents}
