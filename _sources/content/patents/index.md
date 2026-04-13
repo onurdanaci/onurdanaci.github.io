@@ -1,4 +1,4 @@
-# 🧠 Commentaries on Patents
+# Commentaries on Patents
 
 **Introduction**
 
