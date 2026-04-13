@@ -9,7 +9,7 @@ parts:
     chapters:
       - file: content/cv
       - file: content/publications
-      - file: content/blog/index
+      - file: content/blog
       - file: content/highlights  
 
   - caption: "Analysis of Patents"
