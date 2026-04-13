@@ -12,7 +12,7 @@ This site serves as my digital academic portfolio — including my full CV, publ
 - [📄 Publications](content/publications)
   <br>Peer-reviewed articles, preprints, and conference proceedings.
 
-- ®️ [Analysis of Patents](content/patents)
+- ®️ [Analysis of Patents](content/patents/index)
 <br>Technical yet informal comments on patents in my field.
 
 - [✨ Highlights](content/highlights)
