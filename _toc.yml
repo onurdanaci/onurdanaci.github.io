@@ -4,36 +4,40 @@
 format: jb-book
 root: intro
 
-chapters:
-  - file: content/cv
-  - file: content/publications
-  - file: content/blog/index
-  - file: content/patents/index
-    title: "🧠 Commentaries on Patents"
-    sections:
-      - file: content/patents/auto_ml/index
-        title: "Auto-ML"
+parts:
+  - caption: "Main"
+    chapters:
+      - file: content/cv
+      - file: content/publications
+      - file: content/blog/index
+
+  - caption: "🧠 Commentaries on Patents"
+    chapters:
+      - file: content/patents/index
         sections:
-          - file: content/patents/auto_ml/classical/index
-            title: "Classical"
+          - file: content/patents/auto_ml/index
+            title: "Auto-ML"
             sections:
-              - glob: content/patents/auto_ml/classical/*
-          - file: content/patents/auto_ml/quantum/index
-            title: "Quantum"
+              - file: content/patents/auto_ml/classical/index
+                title: "Classical"
+                sections:
+                  - glob: content/patents/auto_ml/classical/*
+              - file: content/patents/auto_ml/quantum/index
+                title: "Quantum"
+                sections:
+                  - glob: content/patents/auto_ml/quantum/*
+          - file: content/patents/quantum_engineering/index
+            title: "Quantum Engineering"
             sections:
-              - glob: content/patents/auto_ml/quantum/*
-      - file: content/patents/quantum_engineering/index
-        title: "Quantum Engineering"
-        sections:
-          - glob: content/patents/quantum_engineering/*
-      - file: content/patents/ml_variational/index
-        title: "ML & Variational"
-        sections:
-          - file: content/patents/ml_variational/classical/index
-            title: "Classical"
+              - glob: content/patents/quantum_engineering/*
+          - file: content/patents/ml_variational/index
+            title: "ML & Variational"
             sections:
-              - glob: content/patents/ml_variational/classical/*
-          - file: content/patents/ml_variational/quantum/index
-            title: "Quantum"
-            sections:
-              - glob: content/patents/ml_variational/quantum/*
+              - file: content/patents/ml_variational/classical/index
+                title: "Classical"
+                sections:
+                  - glob: content/patents/ml_variational/classical/*
+              - file: content/patents/ml_variational/quantum/index
+                title: "Quantum"
+                sections:
+                  - glob: content/patents/ml_variational/quantum/*
