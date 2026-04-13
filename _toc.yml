@@ -3,47 +3,37 @@
 
 format: jb-book
 root: intro
-chapters:
-  - file: content/cv
-  - file: content/publications
-  - file: content/blog/index
-format: jb-book
-root: intro
 
 chapters:
   - file: content/cv
   - file: content/publications
   - file: content/blog/index
-
   - file: content/patents/index
     title: "🧠 Commentaries on Patents"
-    chapters:
-
+    sections:
       - file: content/patents/auto_ml/index
         title: "Auto-ML"
         sections:
-          - glob: content/patents/auto_ml/*
-
+          - file: content/patents/auto_ml/classical/index
+            title: "Classical"
+            sections:
+              - glob: content/patents/auto_ml/classical/*
+          - file: content/patents/auto_ml/quantum/index
+            title: "Quantum"
+            sections:
+              - glob: content/patents/auto_ml/quantum/*
       - file: content/patents/quantum_engineering/index
         title: "Quantum Engineering"
         sections:
           - glob: content/patents/quantum_engineering/*
-
       - file: content/patents/ml_variational/index
         title: "ML & Variational"
-        chapters:
+        sections:
           - file: content/patents/ml_variational/classical/index
             title: "Classical"
             sections:
               - glob: content/patents/ml_variational/classical/*
-
           - file: content/patents/ml_variational/quantum/index
             title: "Quantum"
             sections:
               - glob: content/patents/ml_variational/quantum/*
-  #- file: markdown
-  #- file: markdown-notebooks
-  #- file: notebooks
-
-  #- file: content/highlights
-
