@@ -1,3 +1,5 @@
-#Classical ML, neural-nets and their training
+# Classical ML, neural-nets and their training
 
 Coming soon
+
+```{tableofcontents}

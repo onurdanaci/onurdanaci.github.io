@@ -1,3 +1,5 @@
-#Quantum Auto-ML
+# Quantum Auto-ML
 
 Coming soon.
+
+```{tableofcontents}

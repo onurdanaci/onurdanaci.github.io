@@ -1,6 +1,6 @@
-#🧠 Commentaries on Patents
+# 🧠 Commentaries on Patents
 
-Introduction
+**Introduction**
 
 Recently I dove into the realm of patents. The initial motivation came from an anonymous reviewer in one of my grant applications pointing out that big industrial actors might already have a solution to my project (automated tune-up and calibration of superconducting quantum computers using state-of-the-art optimization, machine learning, and reinforcement learning techniques).
 
@@ -46,3 +46,5 @@ The goal of this blog section, Commentaries on Patents, is to practice reading a
 So this is my journey — to learn by reading, failing, and reflecting — and hopefully to involve others along the way.
 
 [*] https://www.researchgate.net/profile/Eugenio-Archontopoulos/publication/230818897_Spot_the_difference_a_computer-implemented_invention_or_a_software_patent/links/0fcfd504f2270a49e8000000/Spot-the-difference-a-computer-implemented-invention-or-a-software-patent.pdf
+
+```{tableofcontents}

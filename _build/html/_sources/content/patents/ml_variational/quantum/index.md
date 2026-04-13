@@ -1,2 +1,5 @@
-#Variational quantum algorithms for ML & Chemistry
+# Variational quantum algorithms for ML & Chemistry
+
 Coming soon.
+
+```{tableofcontents}
