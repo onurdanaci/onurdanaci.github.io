@@ -1,3 +1,5 @@
 # Blog
 
+Coming soon.
+
 ```{tableofcontents}
