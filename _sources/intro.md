@@ -6,19 +6,19 @@ This site serves as my digital academic portfolio — including my full CV, publ
 
 ## 📘 Contents
 
-- [🧠 Curriculum Vitae](content/cv)
+- [🧠 Curriculum Vitae](/content/cv)
   <br>Academic and industry background, technical skills, education, and honors.
 
-- [📄 Publications](content/publications)
+- [📄 Publications](/content/publications)
   <br>Peer-reviewed articles, preprints, and conference proceedings.
 
-- ®️ [Analysis of Patents](content/patents/index)
+- ®️ [Analysis of Patents](/content/patents/index)
 <br>Technical yet informal comments on patents in my field.
 
-- [✨ Highlights](content/highlights)
+- [✨ Highlights](/content/highlights)
   <br>Key projects, recent talks, collaborations, and recognitions.
 
-- [📝 Blog](content/blog/index)
+- [📝 Blog](/content/blog/index)
   <br>Personal essays and technical posts on quantum computing, machine learning, and more.
 
 ## 🧭 Navigation
