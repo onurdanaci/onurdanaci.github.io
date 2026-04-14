@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Auto-ML &#8212; Onur Danaci</title>
+    <title>Auto-ML (AML) &amp; Architecture Search (AS) &#8212; Onur Danaci</title>
   
   
   
@@ -342,7 +342,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -353,11 +355,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Auto-ML</h1>
+    <h1>Auto-ML (AML) & Architecture Search (AS)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cases-under-review">Cases under Review:</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -367,9 +377,20 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="auto-ml">
-<h1>Auto-ML<a class="headerlink" href="#auto-ml" title="Link to this heading">#</a></h1>
-<p>Coming soon.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="auto-ml-aml-architecture-search-as">
+<h1>Auto-ML (AML) &amp; Architecture Search (AS)<a class="headerlink" href="#auto-ml-aml-architecture-search-as" title="Link to this heading">#</a></h1>
+<p>I have decided to run commentaries on patents regarding the classical and quantum Auto-ML and architecture search business. This stems from two factors: first, having published and reviewed extensively in this field; second, having been embedded in an ecosystem of researchers with strong opinions on these methods.</p>
+<p>In the upcoming posts, I will explore the curious discrepancy in how “similar” technical arguments are treated by patent offices depending on whether they are framed as Classical or Quantum.</p>
+<section id="cases-under-review">
+<h2>Cases under Review:<a class="headerlink" href="#cases-under-review" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Quantum: EP4506865 (Siemens)</strong>
+This patent explores Quantum Architecture Search for a <strong>Quantum Reinforcement Learning (QRL)</strong> task. Rather than a simple classical search, it employs a Monte-Carlo score-function and super-circuit gradient-based approach to simultaneously train and identify optimal Variational Quantum Circuit (VQC) ansatze for Q-learning. Despite this sophisticated integration of architecture search within the reinforcement learning framework, the European Search Opinion (ESO) was unexpectedly harsh, leading Siemens to withdraw.</p></li>
+<li><p><strong>Classical: EP4396730 (Mitsubishi)</strong>
+In contrast, this patent covers automated setup for variational neural networks (like VAEs). It utilizes Bayesian methods and pruning for architecture search and prior selection. While technically parallel in its goal of automating the design of probabilistic systems, this application was granted smoothly.</p></li>
+</ul>
+<p>To an outsider, this schism is a peculiar phenomenon. Beyond the “quantum vs. classical” labeling, the underlying logic of automating complex architecture selection is not significantly different.</p>
+<p><strong>Explore the detailed commentaries below:</strong></p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="classical/index.html">Classical</a><ul>
@@ -382,6 +403,7 @@ document.write(`
 </li>
 </ul>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -438,6 +460,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cases-under-review">Cases under Review:</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
