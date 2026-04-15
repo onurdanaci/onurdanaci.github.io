@@ -10,6 +10,8 @@ parts:
       - file: content/cv
       - file: content/publications
       - file: content/blog/index
+        sections:
+          - glob: content/blog/*
       - file: content/highlights  
 
   - caption: "Analysis of Patents"
