@@ -57,12 +57,16 @@ While the examiner's argument about the lack of **Novelty** is likely justified 
 ### 1. The Double Standard in Auto-ML
 I have looked into similar patents in classical Auto-ML and architecture search. The EPO has granted patents for classical algorithms implementing nearly identical logic! It appears the examiner teams for classical and quantum are disjointed. It makes no sense that an Auto-ML algorithm on a classical chip is "technical," while on a quantum chip it is suddenly "non-technical" or "purely mathematical."
 
+** Edit Coming After Many Months **: EPO in fact granted a QDARTS patent to Tencent, so I no longer think there is a double standard.
+
 ### 2. The Hardware "Game"
 The examiner criticized Siemens for not naming specific qubit hardware. The lawyers could have easily name-dropped: **transmons, fluxoniums, neutral Rydberg atoms, ion traps, or quantum dots**. But they didn't. 
 
 These tricks can be implemented on *any* of these hardwares. The list of hardware types is growing super-polynomially. Forcing the inventors to specify hardware for a general architecture search algorithm is like forcing a compiler architect to name every specific transistor model the code might run on. 
 
 The Siemens team could have argued that their architecture set was limited by a specific hardware's **native gate-set** or **qubit-to-qubit connectivity**. Perhaps they chose not to "play the game." Evidently, they grew so frustrated with the process that they totally rescinded their application.
+
+** Edit coming after many months **: They should have thought about these real hardware adaptations. I am more convinced about this after reading many more patents. It shouldn't be too difficult.
 
 ---
 
