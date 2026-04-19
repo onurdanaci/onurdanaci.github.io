@@ -3,6 +3,8 @@
 
 **TL;DR:** I agree with the EPO’s examiners that this patent application is weak in terms of clarity and novelty. However, I strongly disagree with the assertion that this invention is purely mathematical and lacks a technical nature. Furthermore, the examiners' insistence that the Siemens team name specific qubit hardware—despite the invention being hardware-agnostic—highlights a fundamental disconnect in how quantum algorithms are currently being assessed.
 
+**Very important note coming after many months**: Tencent already had a patent grant by EPO on the QDARTS business! EP4006788B1. I didn't know about this. This fact damages the novelty of the Siemens application even further, and demonstrate that it is in fact pretty doable to show that QDARTS has a technical effect.
+
 ---
 
 ## The "Clarity" Issue and the Moving Parts
