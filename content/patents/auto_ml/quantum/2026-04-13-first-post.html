@@ -196,7 +196,7 @@
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../../index.html">Commentaries on Patents</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2 current active has-children"><a class="reference internal" href="../index.html">Auto-ML</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l3 has-children"><a class="reference internal" href="../classical/index.html">Classical</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l4"><a class="reference internal" href="../classical/2026-04-13-first-post.html">First</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../classical/2026-04-13-first-post.html">Classical: EP4396730 (Mitsubishi)</a></li>
 </ul>
 </details></li>
 <li class="toctree-l3 current active has-children"><a class="reference internal" href="index.html">Quantum</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
@@ -206,16 +206,16 @@
 </ul>
 </details></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../quantum_engineering/index.html">Quantum Engineering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../quantum_engineering/2026-04-13-first-post.html">First</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../quantum_engineering/2026-04-13-first-post.html">EP4629142 - ARRANGEMENT FOR QUBIT RESET (IQM Finland)</a></li>
 </ul>
 </details></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../ml_variational/index.html">ML &amp; Variational</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3 has-children"><a class="reference internal" href="../../ml_variational/classical/index.html">Classical</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../ml_variational/classical/2026-04-13-first-post.html">First</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ml_variational/classical/2026-04-13-first-post.html">EP 3319016 B1 | Control Systems Using Deep Reinforcement Learning (Raytheon)</a></li>
 </ul>
 </details></li>
 <li class="toctree-l3 has-children"><a class="reference internal" href="../../ml_variational/quantum/index.html">Quantum</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../ml_variational/quantum/2026-04-13-first-post.html">First</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ml_variational/quantum/2026-04-13-first-post.html">EP 4042336 B1 | Implementation of Variational Quantum Eigensolver (VQE) Algorithm Using Tensor Network Framework (Huawei/Various)</a></li>
 </ul>
 </details></li>
 </ul>
@@ -399,6 +399,7 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="quantum-patent-review-siemens-and-ep4506865">
 <h1>Quantum Patent Review: Siemens and EP4506865<a class="headerlink" href="#quantum-patent-review-siemens-and-ep4506865" title="Link to this heading">#</a></h1>
 <p><strong>TL;DR:</strong> I agree with the EPO’s examiners that this patent application is weak in terms of clarity and novelty. However, I strongly disagree with the assertion that this invention is purely mathematical and lacks a technical nature. Furthermore, the examiners’ insistence that the Siemens team name specific qubit hardware—despite the invention being hardware-agnostic—highlights a fundamental disconnect in how quantum algorithms are currently being assessed.</p>
+<p><strong>Very important note coming after many months</strong>: Tencent already had a patent grant by EPO on the QDARTS business! EP4006788B1. I didn’t know about this. This fact damages the novelty of the Siemens application even further, and demonstrate that it is in fact pretty doable to show that QDARTS has a technical effect.</p>
 <hr class="docutils" />
 <section id="the-clarity-issue-and-the-moving-parts">
 <h2>The “Clarity” Issue and the Moving Parts<a class="headerlink" href="#the-clarity-issue-and-the-moving-parts" title="Link to this heading">#</a></h2>
@@ -435,7 +436,7 @@ document.write(`
 <p>The average loss function is evaluated at the optimized <span class="math notranslate nohighlight">\(\theta\)</span>:
 <span class="math notranslate nohighlight">\(f(\theta;\alpha) = \frac{1}{K}\sum_k \mathcal{L}_k(\theta_k)\)</span></p>
 <p>This yields a score-function evaluation used to compute the gradient signal:
-$<span class="math notranslate nohighlight">\(\nabla_\alpha = \frac{1}{K}\sum_k \mathcal{L}_k(\theta_k)\nabla_\alpha \log( p(\theta_k;\alpha) )\)</span>$</p>
+<span class="math notranslate nohighlight">\(\nabla_\alpha = \frac{1}{K}\sum_k \mathcal{L}_k(\theta_k)\nabla_\alpha \log( p(\theta_k;\alpha) )\)</span></p>
 <p>This gradient <span class="math notranslate nohighlight">\(\nabla_\alpha\)</span> updates <span class="math notranslate nohighlight">\(\alpha\)</span> so that the next set of structures is sampled. The implementation proposes using this for <strong>Quantum Q-learning</strong>, incorporating an adaptive pruning mechanism as the search progresses.</p>
 </section>
 </section>
